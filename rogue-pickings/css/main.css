@@ -1,0 +1,130 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header h1 {
+  padding: 50px 0px 0px 0px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77A466;
+}
+
+nav {
+    float: right;
+    padding: 65px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #77A466;
+    padding-left: 20px;
+}
+
+img {
+    border-top: 3px solid #77A466;
+    border-bottom: 3px solid #77A466;
+}
+
+/***** ABOUT *****/
+
+#about {
+    padding: 20px 0px 30px 0px;
+}
+
+#about h2 {
+    color: #77A466;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#about p {
+    line-height: 25px;
+}
+
+/***** ARTICLES *****/
+
+article {
+    padding: 20px 20px 20px 20px;
+    margin-left: 30px;
+    border-top: 1px solid #DEDBDC;
+    border-bottom: 1px solid #DEDBDC;
+}
+
+article h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#specials ul {
+    color: #77A466;
+    list-style: none;
+    padding-left: 0;
+}
+
+#specials li {
+    padding: 10px 0;
+}
+
+#reviews {
+    line-height: 21px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 1px solid #DEDBDC;
+    border-right: 1px solid #DEDBDC;
+}
+
+#contact {
+    line-height: 24px;
+    padding-left: 30px;
+}
+
+/***** FOOTER *****/
+
+footer {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer span {
+    font-family: 'Galada';
+    text-transform: lowercase;
+    font-style: italic;
+    color: #77A466;
+}

@@ -1,0 +1,168 @@
+/****** BASE STYLES ******/
+h1 {
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 34px;
+    color: #868C80;
+}
+
+h2 {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 30px;
+    color: #868C80;
+}
+
+h3 {
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #868C80;
+}
+
+h4 {
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #868C80;
+}
+
+p {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 22px;
+    color: #868C80;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    background-color: #592E46;
+    height: 115px;
+}
+
+header h2 {
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+
+nav {
+    float: right;
+    padding-top: 15px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'PT Serif Caption', serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-left: 32px;
+}
+
+/***** HERO IMAGE ******/
+
+#hero {
+    height: 800px;
+    background: url('../img/flower-hero.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h1 {
+    color: #868C80;
+    padding-left: 325px;
+    padding-top: 105px;
+}
+
+/****WORK****/
+
+#work {
+    border-top: 30px;
+    border-style: solid;
+    border-color: #592E46;
+    margin: 0;
+    height: auto;
+}
+
+#work h3{
+    padding: 30px;
+}
+
+#work img {
+    border: 4px;
+    border-style: solid;
+    border-color: #868C80;
+    margin-bottom: 80px;
+}
+
+#work h4 {
+    margin-top: 0;
+}
+
+#work p {
+    padding-bottom: 105px;
+}
+
+/****ABOUT****/
+
+#about {
+    border-top: 30px;
+    border-bottom: 30px;
+    border-style: solid;
+    border-color: #592E46;
+    margin: 0;
+    height: auto;
+    background-color: #6C8C5D;
+}
+
+#about h3 {
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+#about p {
+    color: #FFFFFF;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+#about img {
+    margin-bottom: 80px;
+}
+
+/****CONTACT****/
+
+#contact {
+    background-color: #592E46;
+}
+
+#contact h3 {
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+     padding-left: 30px;
+     padding-bottom: 80px;
+     margin-left: 195px;
+
+}
